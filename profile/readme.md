@@ -171,25 +171,19 @@
 ---
 
 ## 실험 및 시연 영상
-> 🚘 **제품 및 실험 환경**
 
-<div align="center">
-   <img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/95b45571-2908-4b1a-88f3-45ebb6fcb7d0" />
-   <p align="center"><em> 실제 이상 탐지 감지 DB 기록 내역</em></p>
-</div>
-
+### 🚘 하드웨어 제품 및 주행 실험
 > 실제 주행 환경에서 센서·앱·AI의 연동을 검증하기 위해 실차 테스트를 진행했습니다.  
-> <br>아래는 **AI 이상탐지 → 119 신고 → 데이터 시각화**까지의 전체 흐름을 보여줍니다.
-
----
-
-### ⚙️ 하드웨어 및 주행 실험
 
 <div align="center">
    <img width="900" alt="제품 및 실험" src="https://github.com/user-attachments/assets/5fd5165a-29f7-4582-918e-9e7f7a678721" />
    <p align="center"><em>차량 내 센서 설치 및 TABA 앱 실시간 연동 장면</em></p>
 </div>
 
+<div align="center">
+   <img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/95b45571-2908-4b1a-88f3-45ebb6fcb7d0" />
+   <p align="center"><em> 실제 이상 탐지 감지 DB 기록 내역</em></p>
+</div>
 
 ---
 
@@ -204,11 +198,10 @@
 | 🚗 **TMap & TABA 앱 동시 실행** | 실제 차량 주행 중 실시간 센서·속도 연동 시연 | [YouTube Shorts](https://youtube.com/shorts/BzHTwrxtZ7Q?feature=share) |
 
 
-> 📌 **시연 요약**  
+> **시연 요약**  
 > 실제 차량 환경에서 페달 센서 입력값을 기반으로 **급발진 탐지 AI 모델**을 구동하고,  
 > 감지 시 **119 API 호출 → 웹 대시보드 알림 → MongoDB 데이터 기록 → 앱 실시간 시각화**까지  
 > 전 과정을 통합적으로 시연했습니다.
-
 
 ---
 
