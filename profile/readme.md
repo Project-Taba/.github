@@ -73,6 +73,8 @@
 
 <p align="left">
    <img width="368" height="796" alt="image" src="https://github.com/user-attachments/assets/dfeb8445-8601-463d-929b-55716d327c4e" />
+   <img width="1243" height="658" alt="image" src="https://github.com/user-attachments/assets/b6f120de-a555-4314-9f5a-59278b15f599" />
+
 </p>
 
 </details>
