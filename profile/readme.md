@@ -39,7 +39,7 @@
 ## 핵심 기능
 
 <details>
-<summary>🚗 내비게이션 — 운행 엑셀·브레이크·속도 실시간 데이터를 통한 시각화</summary>
+<summary>🚗 내비게이션 — 장소 키워드 검색, 운행 엑셀·브레이크·속도 실시간 데이터를 통한 시각화</summary>
 
 <p align="left">
 
@@ -64,21 +64,30 @@
 
 
 <details>
-<summary>📊 데이터 기록화 - 이상 탐지 전후 차량 데이터만 저장 후 시각화 및 엑셀로 저장</summary>
+<summary>📊 이상 탐지 데이터 관리</summary>
 
-<p align="left">
-   
-<img src="https://github.com/user-attachments/assets/bc65908d-2df2-4f31-ad52-2f0826b694f2" width="300" height="700" />
-<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/7fb6a8b4-44f4-45aa-be98-9e718d7c4a64" />
+<div align="left">
 
+**기능 요약**
+1. 이상 탐지 전후 차량 데이터만 DB 저장  
+2. 모바일 앱에 해당 데이터 차트로 제공  
+3. 웹 대시보드에서 엑셀파일 다운로드  
 
-</p>
+<br/>
+
+<img src="https://github.com/user-attachments/assets/bc65908d-2df2-4f31-ad52-2f0826b694f2" width="300" height="700" style="border-radius:10px; margin-right:10px;" />
+<img src="https://github.com/user-attachments/assets/7fb6a8b4-44f4-45aa-be98-9e718d7c4a64" width="700" height="400" style="border-radius:10px;" />
+
+</div>
 
 </details>
 
-<details>
-<summary>⚙️ 운전 습관 측정 — 페달 압력, 차량 속도 기반 양발 운전·급출발·급정거 습관 분석</summary>
 
+<details>
+<summary>⚙️ 운전 습관 측정 </summary>
+1. 페달 압력, 차량 속도 기반 양발 운전·급출발·급정거 습관 제공
+2. 운행 폴리 라인, 운행시간, 운행거리 제공
+   
 <p align="left">
 
 ![Image](https://github.com/user-attachments/assets/7bf0ead1-1ab6-4e45-b4a6-bed720cea792)
