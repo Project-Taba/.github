@@ -204,7 +204,7 @@
 
 ---
 
-## 📂 레포지토리 구조
+## 레포지토리 링크 및 설명
 
 - **[functional_specification_web — 웹 기능 명세](https://github.com/Project-Taba/functional_specification_web)**
 - **[functional_specification_app — 앱 기능 명세](https://github.com/Project-Taba/functional_specification_app)**
