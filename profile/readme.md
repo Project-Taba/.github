@@ -176,7 +176,7 @@
 > 실제 주행 환경에서 센서·앱·AI의 연동을 검증하기 위해 실차 테스트를 진행했습니다.  
 
 <div align="center">
-   <img width="900" alt="제품 및 실험" src="https://github.com/user-attachments/assets/5fd5165a-29f7-4582-918e-9e7f7a678721" />
+   <img width="900" alt="제품 및 실험" src="https://github.com/user-attachments/assets/e5944515-c2f7-4e28-93c8-054460bddfd3" />
    <p align="center"><em>차량 내 센서 설치 및 TABA 앱 실시간 연동 장면</em></p>
 </div>
 
