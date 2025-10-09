@@ -36,32 +36,25 @@
 
 ---
 
-
 ## 핵심 기능
 
 <details>
 <summary>🚗 내비게이션 — 운행 엑셀·브레이크·속도 실시간 데이터를 통한 시각화</summary>
 
 <p align="left">
-<img width="368" height="796" alt="image" src="https://github.com/user-attachments/assets/ea5f184c-08f3-4731-989b-26cc94d0ca6f" />
-
-<img width="368" height="796" alt="image" src="https://github.com/user-attachments/assets/a43676e7-599b-4a48-9471-7110deffbd6e" />
-
+<img width="368" height="796" alt="navigation-1" src="https://github.com/user-attachments/assets/ea5f184c-08f3-4731-989b-26cc94d0ca6f.gif" />
+<img width="368" height="796" alt="navigation-2" src="https://github.com/user-attachments/assets/a43676e7-599b-4a48-9471-7110deffbd6e.gif" />
 </p>
 
 </details>
-
----
 
 <details>
 <summary>🆘 AI 응급대응 — 브레이크 오작동 감지시 119 자동 호출, 위치/상태 데이터 웹 대시보드에서 관리</summary>
 
 <p align="left">
-<img width="368" height="796" alt="image" src="https://github.com/user-attachments/assets/1c8eba95-cdcf-4b7e-8ab8-a677514894dd" />
-<img width="368" height="796" alt="image" src="https://github.com/user-attachments/assets/8207d09c-f274-4eba-8cc7-dd04ad2fd534" />
-
-<img width="1248" height="654" alt="image" src="https://github.com/user-attachments/assets/ce9cad7a-0a56-4a6b-a3df-6a33a99c56d5" />
-
+<img width="368" height="796" alt="ai-emergency-1" src="https://github.com/user-attachments/assets/1c8eba95-cdcf-4b7e-8ab8-a677514894dd.gif" />
+<img width="368" height="796" alt="ai-emergency-2" src="https://github.com/user-attachments/assets/8207d09c-f274-4eba-8cc7-dd04ad2fd534.gif" />
+<img width="1248" height="654" alt="ai-emergency-3" src="https://github.com/user-attachments/assets/ce9cad7a-0a56-4a6b-a3df-6a33a99c56d5.gif" />
 </p>
 
 </details>
@@ -70,24 +63,23 @@
 <summary>📊 데이터 기록화</summary>
 
 <p align="left">
-   <img width="368" height="796" alt="image" src="https://github.com/user-attachments/assets/dfeb8445-8601-463d-929b-55716d327c4e" />
-   <img width="1243" height="658" alt="image" src="https://github.com/user-attachments/assets/b6f120de-a555-4314-9f5a-59278b15f599" />
-
+<img width="368" height="796" alt="data-record-1" src="https://github.com/user-attachments/assets/dfeb8445-8601-463d-929b-55716d327c4e.gif" />
+<img width="1243" height="658" alt="data-record-2" src="https://github.com/user-attachments/assets/b6f120de-a555-4314-9f5a-59278b15f599.gif" />
 </p>
 
 </details>
-
 
 <details>
 <summary>⚙️ 운전 습관 측정 — 페달 압력, 차량 속도 기반 양발 운전·급출발·급정거 습관 분석</summary>
 
 <p align="left">
- <img width="368" height="796" alt="image" src="https://github.com/user-attachments/assets/958964af-4eb0-4c33-99c0-8c97ad0350b1" />
+<img width="368" height="796" alt="driving-habit" src="https://github.com/user-attachments/assets/958964af-4eb0-4c33-99c0-8c97ad0350b1.gif" />
 </p>
 
 </details>
 
 ---
+
 
 ## AI 로직
 
