@@ -194,7 +194,6 @@
 | 📱 **앱 데모** | Flutter 기반 실시간 주행 데이터 시각화 | [YouTube](https://www.youtube.com/watch?v=LInyRZcJ4HU) |
 | 🖥️ **웹 대시보드 데모** | AI 응급대응 및 위치 모니터링 관리 화면 | [YouTube](https://www.youtube.com/watch?v=aK-eYY0P0hw) |
 | ⚙️ **페달 캘리브레이션 측정** | 자동차 페달 압력 센서 값 측정 및 보정 | [YouTube Shorts](https://youtube.com/shorts/9eompbtX2hE?feature=share) |
-| 🚨 **급발진 상황 감지 (앱 + AI)** | 급발진 발생 시 AI 이상 탐지 및 자동 신고 | [YouTube](https://youtu.be/Otl3w4VNpLc?si=G6EXhFz4sbFQ5sRj) |
 | 🚗 **TMap & TABA 앱 동시 실행** | 실제 차량 주행 중 실시간 센서·속도 연동 시연 | [YouTube Shorts](https://youtube.com/shorts/BzHTwrxtZ7Q?feature=share) |
 
 
@@ -205,16 +204,11 @@
 
 ---
 
-## 레포지토리 구조
-- **functional_specification_web** — 웹 기능 명세  
-  `https://github.com/Project-Taba/functional_specification_web`
-- **functional_specification_app** — 앱 기능 명세  
-  `https://github.com/Project-Taba/functional_specification_app`
-- **Frontend** — 웹 대시보드 (React / JavaScript)  
-  `https://github.com/Project-Taba/Frontend`
-- **Frontend_App** — 사용자 모바일 앱 (Flutter / Dart)  
-  `https://github.com/Project-Taba/Frontend_App`
-- **Server** — 백엔드 서버 (Spring Boot / Java)  
-  `https://github.com/Project-Taba/Server`
-- **AI** — 모델/분석 (Python / Jupyter Notebook)  
-  `https://github.com/Project-Taba/AI`
+## 📂 레포지토리 구조
+
+- **[functional_specification_web — 웹 기능 명세](https://github.com/Project-Taba/functional_specification_web)**
+- **[functional_specification_app — 앱 기능 명세](https://github.com/Project-Taba/functional_specification_app)**
+- **[Frontend — 웹 대시보드 (React / JavaScript)](https://github.com/Project-Taba/Frontend)**
+- **[Frontend_App — 사용자 모바일 앱 (Flutter / Dart)](https://github.com/Project-Taba/Frontend_App)**
+- **[Server — 백엔드 서버 (Spring Boot / Java)](https://github.com/Project-Taba/Server)**
+- **[AI — 모델 / 분석 (Python / Jupyter Notebook)](https://github.com/Project-Taba/AI)**
