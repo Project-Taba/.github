@@ -75,8 +75,8 @@
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/bc65908d-2df2-4f31-ad52-2f0826b694f2" width="300" height="500" style="border-radius:10px; margin-right:10px;" />
-<img src="https://github.com/user-attachments/assets/7fb6a8b4-44f4-45aa-be98-9e718d7c4a64" width="550" height="350" style="border-radius:10px;" />
+<img src="https://github.com/user-attachments/assets/bc65908d-2df2-4f31-ad52-2f0826b694f2" width="280" height="500" style="border-radius:10px; margin-right:10px;" />
+<img src="https://github.com/user-attachments/assets/7fb6a8b4-44f4-45aa-be98-9e718d7c4a64" width="540" height="360" style="border-radius:10px;" />
 
 </div>
 
