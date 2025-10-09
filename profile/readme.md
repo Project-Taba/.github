@@ -1,5 +1,7 @@
 # TABA — 급발진 감지 & AI 기반 응급 대처 서비스
-<img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/5011f9cb-7453-47d2-89c3-944e2c62d9f7" />
+<div align="center">
+   <img width="600" height="250" alt="image" src="https://github.com/user-attachments/assets/5011f9cb-7453-47d2-89c3-944e2c62d9f7" />
+</div>
 
 > **타봐! Triggered Acceleration Block Application**  
 > 엑셀/브레이크 압력과 속도 데이터를 분석해 급발진을 **판단**하고, **자동으로 119에 신고**하는 스마트 모빌리티 안전 서비스.
@@ -26,13 +28,22 @@
 - **App(Flutter)** ↔ **Server(Spring Boot)** ↔ **AI(Keras)**  
 - 실시간 수집 → 전처리/특징 추출 → 이상 탐지(급발진) 판별 → **119 호출** → 대시보드 기록
 ### 🧩 아키텍처 다이어그램
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/e23d4671-a34e-48cb-bcf6-749782c0d92a" />
+
+<div align="center">
+<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/e23d4671-a34e-48cb-bcf6-749782c0d92a" />
+</div>
 
 ### 📱 모바일 앱 기능 요약
-<img width="1400" height="600" alt="image" src="https://github.com/user-attachments/assets/88bcabf6-e3b8-4c77-9363-a9cb76d67684" />
+
+<div align="center">
+<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/88bcabf6-e3b8-4c77-9363-a9cb76d67684" />
+</div>
 
 ### 🖥️ 웹 대시보드 기능 요약
-<img width="1400" height="600" alt="image" src="https://github.com/user-attachments/assets/e768dc56-4e9a-4f79-8402-c88947384274" />
+
+<div align="center">
+<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/e768dc56-4e9a-4f79-8402-c88947384274" />
+</div>
 
 ---
 
