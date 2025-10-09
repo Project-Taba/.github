@@ -43,8 +43,9 @@
 <summary>🚗 내비게이션 — 운행 엑셀·브레이크·속도 실시간 데이터를 통한 시각화</summary>
 
 <p align="left">
-<img width="368" height="796 alt="image" src="https://github.com/user-attachments/assets/f697174c-dd33-47ea-95de-00a8f118597b" />
-<img width="1080" height="2126" alt="image" src="https://github.com/user-attachments/assets/a43676e7-599b-4a48-9471-7110deffbd6e" />
+<img width="368" height="796" alt="image" src="https://github.com/user-attachments/assets/ea5f184c-08f3-4731-989b-26cc94d0ca6f" />
+
+<img width="368" height="796" alt="image" src="https://github.com/user-attachments/assets/a43676e7-599b-4a48-9471-7110deffbd6e" />
 
 </p>
 
@@ -56,9 +57,10 @@
 <summary>🆘 AI 응급대응 — 브레이크 오작동 감지시 119 자동 호출, 위치/상태 데이터 웹 대시보드에서 관리</summary>
 
 <p align="left">
+<img width="368" height="796" alt="image" src="https://github.com/user-attachments/assets/1c8eba95-cdcf-4b7e-8ab8-a677514894dd" />
+<img width="368" height="796" alt="image" src="https://github.com/user-attachments/assets/8207d09c-f274-4eba-8cc7-dd04ad2fd534" />
 
-<img width="368" height="796" alt="image" src="https://github.com/user-attachments/assets/0f70bdea-1b9b-4157-bff4-5418aa6a0a4d" />
-
+<img width="1248" height="654" alt="image" src="https://github.com/user-attachments/assets/ce9cad7a-0a56-4a6b-a3df-6a33a99c56d5" />
 
 </p>
 
