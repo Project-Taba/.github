@@ -45,7 +45,6 @@
 
 ![Image](https://github.com/user-attachments/assets/a44ce901-8b81-4592-bf66-81dc4599b280)
 <img width="368" height="796" alt="image" src="https://github.com/user-attachments/assets/aaf66319-2c86-4fa4-853e-3df636a5426f" />
-
 </p>
 
 </details>
@@ -65,13 +64,12 @@
 
 
 <details>
-<summary>📊 데이터 기록화</summary>
+<summary>📊 데이터 기록화 - 이상 탐지 전후 차량 데이터만 저장 후 시각화 및 엑셀로 저장</summary>
 
 <p align="left">
-
-![Image](https://github.com/user-attachments/assets/bc65908d-2df2-4f31-ad52-2f0826b694f2)
-
-<img width="1243" height="658" alt="image" src="https://github.com/user-attachments/assets/7fb6a8b4-44f4-45aa-be98-9e718d7c4a64" />
+   
+<img src="https://github.com/user-attachments/assets/bc65908d-2df2-4f31-ad52-2f0826b694f2" width="300" height="700" />
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/7fb6a8b4-44f4-45aa-be98-9e718d7c4a64" />
 
 
 </p>
