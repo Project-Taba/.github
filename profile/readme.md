@@ -1,4 +1,5 @@
 # TABA — 급발진 감지 & AI 기반 응급 대처 서비스
+<img width="1057" height="476" alt="image" src="https://github.com/user-attachments/assets/5011f9cb-7453-47d2-89c3-944e2c62d9f7" />
 
 > **Triggered Acceleration Block Application**  
 > 엑셀/브레이크 압력과 속도 데이터를 분석해 급발진을 **입증**하고, 사고 시 **자동으로 119에 신고**하는 스마트 모빌리티 안전 서비스.
@@ -12,7 +13,6 @@
 - [레포지토리 구조](#레포지토리-구조)
 - [데이터 & AI 로직](#데이터--ai-로직)
 - [데모](#데모)
-- [기술 스택](#기술-스택)
 - [팀](#팀)
 
 ---
@@ -43,35 +43,23 @@
 
 ## 시스템 아키텍처
 - **App(Flutter)** ↔ **Server(Spring Boot)** ↔ **AI(Python/Jupyter)**  
-- 실시간 수집 → 전처리/특징 추출 → 급발진 판별 → **119 API 호출** → 대시보드 기록
-
-<details>
-<summary>🧩 아키텍처 다이어그램 (클릭해 열기)</summary>
-
+- 실시간 수집 → 전처리/특징 추출 → 이상 탐지(급발진) 판별 → **119 호출** → 대시보드 기록
+### 🧩 아키텍처 다이어그램
 <img width="1111" height="675" alt="image" src="https://github.com/user-attachments/assets/e23d4671-a34e-48cb-bcf6-749782c0d92a" />
 
 
-</details>
+### 📱 모바일 앱 주요 기능
+<img width="1400" height="600" alt="image" src="https://github.com/user-attachments/assets/88bcabf6-e3b8-4c77-9363-a9cb76d67684" />
 
-<details>
-<summary>📱 앱 화면 (클릭해 열기)</summary>
-  <img width="1459" height="553" alt="image" src="https://github.com/user-attachments/assets/88bcabf6-e3b8-4c77-9363-a9cb76d67684" />
-</details>
-
-<details>
-<summary>🖥️ 웹 대시보드 (클릭해 열기)</summary>
-
-<img width="1468" height="586" alt="image" src="https://github.com/user-attachments/assets/fcf77724-315e-405f-a826-980e5e073a02" />
-
-
-</details>
+### 🖥️ 웹 대시보드 주요 기능
+<img width="1400" height="600" alt="image" src="https://github.com/user-attachments/assets/e768dc56-4e9a-4f79-8402-c88947384274" />
 
 ---
 
 ## 레포지토리 구조
 > 조직: **Project-Taba**
 
-- **Frontend** — 웹 프론트엔드 (Vue / JavaScript)  
+- **Frontend** — 웹 프론트엔드 (React / JavaScript)  
   `https://github.com/Project-Taba/Frontend`
 - **Frontend_App** — 모바일 앱 (Flutter / Dart)  
   `https://github.com/Project-Taba/Frontend_App`
@@ -86,34 +74,51 @@
 
 ---
 
-## 데이터 & AI 로직
-<img width="1123" height="438" alt="image" src="https://github.com/user-attachments/assets/0d8d5783-55ca-42df-be3f-6adea7bc2a9c" />
-- **정규화**  
-  \[
-  x_\text{scaled} = \frac{x - x_\text{min}}{x_\text{max} - x_\text{min}}
-  \]
-- **속도 변화율(프레임 간 차분)**  
-  \[
-  v_{\text{shift}} = v_t - v_{t-1}
-  \]
-- **판별 개념**
-  - 엑셀↑ & 브레이크↓ & 속도↑ 패턴의 **동시·급격 변화** 탐지  
-  - 임계치/윈도우 기반 특징 + 휴리스틱/ML 조합  
+## 🧠 데이터 & AI 로직
+
+<img width="100" height="400" alt="AI Logic Diagram" src="https://github.com/user-attachments/assets/0d8d5783-55ca-42df-be3f-6adea7bc2a9c" />
+
+### ⚙️ 모델 개요
+- 기존 운전 데이터(`엑셀 압력`, `브레이크 압력`, `속도 변화량`)을 기반으로 **LSTM 모델**을 학습  
+- 각 입력은 모두 **Min-Max Scaling** 정규화를 거친 후 학습에 사용  
+- 시계열 특성을 반영하여, **이전 5초간 데이터(5개 샘플)**를 통해 **다음 속도 변화량**을 예측  
+
+\[
+x_\text{scaled} = \frac{x - x_\text{min}}{x_\text{max} - x_\text{min}}, \quad
+v_{\text{shift}} = v_t - v_{t-1}
+\]
+
+---
+
+### 🚗 이상 탐지 로직
+1. 1초마다 새로운 데이터 `[엑셀 압력, 브레이크 압력, 속도]` 수집  
+2. 최근 5개의 데이터를 유지하며, LSTM 모델로 **다음 속도 변화량** 예측  
+3. 예측값과 실제 속도 변화량의 차이가 **10 이상**이면 `급발진`으로 판단  
+   - 20,000건의 학습 데이터에서 **정규화 후 이상값이 10 이하**로 수렴  
+   - OECD·ITF 보고서 기준, **10km/h 차이만으로도 사고 위험률 20% 감소**
+
+---
+
+### 💡 설계 배경
+- 동일한 압력이라도 **도로 기울기, 타이어 마모, 제동 환경** 등에 따라 속도 변화가 달라짐  
+- 이러한 물리적 환경을 직접 측정하기 어려워,  
+  **“이전 값들의 패턴”을 학습해 이상 여부를 판단**하도록 설계  
+- 시계열 예측에 적합한 **LSTM 기반 딥러닝 구조**를 채택  
+
+---
 
 <details>
-<summary>📈 실제 AI 이상탐지</summary>
+<summary>📈 실제 AI 이상탐지 결과 (클릭해 보기)</summary>
 <img width="1156" height="720" alt="AI 이상탐지" src="https://github.com/user-attachments/assets/86a8bcbf-9665-4438-9677-9812b196aba1" />
-
 </details>
+
 
 ---
 
 ## 데모
 - 앱/웹/AI 시연 영상:
-  - https://youtube.com/shorts/9eompbtX2hE  
-  - https://youtu.be/OtI3w4VNpLc  
-  - https://youtu.be/59zyD-lkC0Y  
-  - https://www.youtube.com/watch?v=LInyRZcJ4HU
+1. 설명용 앱 데모: https://www.youtube.com/watch?v=LlnyRZcJ4HU
+2. 설명용 웹 데모: https://www.youtube.com/watch?v=aK-eYY0P0hw
 
 <details>
 <summary>🎞️ 데모 캡처 (클릭해 열기)</summary>
