@@ -191,7 +191,7 @@
 
 | 구분 | 설명 | 링크 |
 |------|------|------|
-| 📱 **앱 데모** | Flutter 기반 실시간 주행 데이터 시각화 | [YouTube](https://www.youtube.com/watch?v=LlnyRZcJ4HU) |
+| 📱 **앱 데모** | Flutter 기반 실시간 주행 데이터 시각화 | [YouTube](https://www.youtube.com/watch?v=LInyRZcJ4HU) |
 | 🖥️ **웹 대시보드 데모** | AI 응급대응 및 위치 모니터링 관리 화면 | [YouTube](https://www.youtube.com/watch?v=aK-eYY0P0hw) |
 | ⚙️ **페달 캘리브레이션 측정** | 자동차 페달 압력 센서 값 측정 및 보정 | [YouTube Shorts](https://youtube.com/shorts/9eompbtX2hE?feature=share) |
 | 🚨 **급발진 상황 감지 (앱 + AI)** | 급발진 발생 시 AI 이상 탐지 및 자동 신고 | [YouTube](https://youtu.be/Otl3w4VNpLc?si=G6EXhFz4sbFQ5sRj) |
@@ -200,7 +200,7 @@
 
 > **시연 요약**  
 > 실제 차량 환경에서 페달 센서 입력값을 기반으로 **급발진 탐지 AI 모델**을 구동하고,  
-> 감지 시 **119 API 호출 → 웹 대시보드 알림 → MongoDB 데이터 기록 → 앱 실시간 시각화**까지  
+> 감지 시 **119 API 호출 → 웹 대시보드 알림 → MySQLDB 데이터 기록 → 앱 실시간 시각화**까지  
 > 전 과정을 통합적으로 시연했습니다.
 
 ---
