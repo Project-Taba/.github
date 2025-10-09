@@ -19,8 +19,6 @@
 
 ## 프로젝트 개요
 
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/72f37fa8-ce2d-4cbd-9acc-3906d91e8009" />
-
 - 운전자가 직접 입증해야 하는 **급발진 사고의 구조적 한계**를 데이터로 보완
 - 센서 데이터(엑셀/브레이크 압력, 속도)의 **상관관계 분석**을 통해 **브레이크 오작동 여부 판단**
 - 이상 징후(브레이크 오작동) 시 **AI가 즉시 119 신고 및 위치·상태 전송**으로 **골든타임 확보**
@@ -174,6 +172,8 @@
 
 ## 데모
 > 실제 시연 영상 (App / Web / AI 통합)
+
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/72f37fa8-ce2d-4cbd-9acc-3906d91e8009" />
 
 | 구분 | 링크 |
 |------|------|
