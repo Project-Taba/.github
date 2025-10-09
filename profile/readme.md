@@ -54,14 +54,15 @@
 <summary>🆘 AI 응급대응 — 브레이크 오작동 감지시 119 자동 호출, 위치/상태 데이터 웹 대시보드에서 관리</summary>
 
 <p align="left">
-   
-![Image](https://github.com/user-attachments/assets/f9b88307-25b6-4d23-bec2-12269a6c3ed9)   
-![Image](https://github.com/user-attachments/assets/f43ac1e0-b753-474e-82d6-f80aee28236c)
-![Image](https://github.com/user-attachments/assets/b0f8fddf-a43d-40a6-aab3-db31dd54a95c)
+
+<img src="https://github.com/user-attachments/assets/f9b88307-25b6-4d23-bec2-12269a6c3ed9" width="350" height="780" />
+<img src="https://github.com/user-attachments/assets/f43ac1e0-b753-474e-82d6-f80aee28236c" width="350" height="780" />
+<img src="https://github.com/user-attachments/assets/b0f8fddf-a43d-40a6-aab3-db31dd54a95c" width="350" height="780" />
 
 </p>
 
 </details>
+
 
 <details>
 <summary>📊 데이터 기록화</summary>
