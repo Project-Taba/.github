@@ -81,6 +81,7 @@
 
 <p align="left">
 
+![Image](https://github.com/user-attachments/assets/7bf0ead1-1ab6-4e45-b4a6-bed720cea792)
 ![Image](https://github.com/user-attachments/assets/57ddd83d-a260-41e3-bd23-ff1868c2ff7c)
 
 </p>
@@ -111,12 +112,9 @@
 - 이러한 물리적 환경을 직접 측정하기 어려워, **"정해진 윈도우(5초) 값들의 패턴"으로 이상 여부를 판단**하도록 설계  
 - 시계열 예측에 적합한 **LSTM 기반 딥러닝 구조**를 채택  
 
----
-
-<details>
-<summary>📈 실제 AI 이상탐지 결과 (클릭해 보기)</summary>
+### 📈 실제 AI 이상탐지 결과
 <img width="1100" height="500" alt="AI 이상탐지" src="https://github.com/user-attachments/assets/86a8bcbf-9665-4438-9677-9812b196aba1" />
-</details>
+
 
 ---
 
