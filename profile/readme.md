@@ -173,7 +173,7 @@
 ## 데모
 > 실제 시연 영상 (App / Web / AI 통합)
 
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/72f37fa8-ce2d-4cbd-9acc-3906d91e8009" />
+<img width="938" height="570" alt="image 31" src="https://github.com/user-attachments/assets/2428e259-3c6e-4c13-8d9b-18f98b55afaf" />
 
 | 구분 | 링크 |
 |------|------|
