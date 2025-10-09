@@ -50,26 +50,47 @@
 ## 핵심 기능
 
 <details>
-<summary>🚗 내비게이션 — 장소 키워드 검색, 운행 엑셀·브레이크·속도 실시간 데이터를 통한 시각화</summary>
+<summary>🚗 내비게이션 </summary>
 
-<p align="left">
+<br/>
+   
+<div align="left">
+
+기능 요약
+1. 목적지 키워드 기반 검색
+2. 목적지 최단 거리 폴리라인
+3. 운행 엑셀·브레이크·속도 실시간 데이터를 통한 시각화 
+   
+<br/>
 
 ![Image](https://github.com/user-attachments/assets/a44ce901-8b81-4592-bf66-81dc4599b280)
 <img width="280" height="500" alt="image" src="https://github.com/user-attachments/assets/aaf66319-2c86-4fa4-853e-3df636a5426f" />
-</p>
+</div>
 
 </details>
 
 <details>
-<summary>🆘 AI 응급대응 — 브레이크 오작동 감지시 119 자동 호출, 위치/상태 데이터 웹 대시보드에서 관리</summary>
+<summary>🆘 AI 기반 응급 대처 </summary>
 
-<p align="left">
+<br/>
+   
+<div align="left">
+
+기능 요약
+1. 브레이크 오작동 감지시 119 자동 호출
+2. 웹 대시보드에서 사용자 위치/상태 실시간 확인
+   
+<br/>
 
 <img src="https://github.com/user-attachments/assets/f9b88307-25b6-4d23-bec2-12269a6c3ed9" width="260" height="480" />
 <img src="https://github.com/user-attachments/assets/f43ac1e0-b753-474e-82d6-f80aee28236c" width="260" height="480" />
 <img src="https://github.com/user-attachments/assets/b0f8fddf-a43d-40a6-aab3-db31dd54a95c" width="260" height="480" />
 
-</p>
+
+<img width="400" height="210" alt="image" src="https://github.com/user-attachments/assets/848d43ed-d521-406b-9fd4-99cfe19bfa0e" />
+<img width="400" height="210" alt="image" src="https://github.com/user-attachments/assets/d457b3fd-9d99-467d-8dcd-c8995e393971" />
+
+</div>
 
 </details>
 
@@ -77,9 +98,11 @@
 <details>
 <summary>📊 이상 탐지 데이터 관리</summary>
 
+<br/>
+   
 <div align="left">
 
-**기능 요약**
+기능 요약
 1. 이상 탐지 전후 차량 데이터만 DB 저장  
 2. 모바일 앱에 해당 데이터 차트로 제공  
 3. 웹 대시보드에서 엑셀파일 다운로드  
@@ -96,15 +119,22 @@
 
 <details>
 <summary>⚙️ 운전 습관 측정 </summary>
+
+<br/>
+   
+<div align="left">
+
+기능 요약
 1. 페달 압력, 차량 속도 기반 양발 운전·급출발·급정거 습관 제공
 2. 운행 폴리 라인, 운행시간, 운행거리 제공
    
-<p align="left">
+<br/>
+
 
 <img src="https://github.com/user-attachments/assets/7bf0ead1-1ab6-4e45-b4a6-bed720cea792" width="280" height="500" style="border-radius:10px; margin-right:10px;" />
 <img src="https://github.com/user-attachments/assets/57ddd83d-a260-41e3-bd23-ff1868c2ff7c" width="280" height="500" style="border-radius:10px; margin-right:10px;" />
 
-</p>
+</div>
 
 </details>
 
@@ -113,7 +143,7 @@
 
 ## AI 로직
 
-<img width="100" height="400" alt="AI Logic Diagram" src="https://github.com/user-attachments/assets/0d8d5783-55ca-42df-be3f-6adea7bc2a9c" />
+<img width="800" height="300" alt="AI Logic Diagram" src="https://github.com/user-attachments/assets/0d8d5783-55ca-42df-be3f-6adea7bc2a9c" />
 
 ### ⚙️ 모델 개요
 - 기존 운전 데이터(`엑셀 압력`, `브레이크 압력`, `속도 변화량`)을 기반으로 **LSTM 모델**을 학습  
