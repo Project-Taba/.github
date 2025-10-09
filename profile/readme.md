@@ -12,9 +12,7 @@
 - [레포지토리 구조](#레포지토리-구조)
 - [데이터 & AI 로직](#데이터--ai-로직)
 - [데모](#데모)
-- [빠른 시작](#빠른-시작)
 - [기술 스택](#기술-스택)
-- [로드맵](#로드맵)
 - [팀](#팀)
 
 ---
@@ -89,6 +87,7 @@
 ---
 
 ## 데이터 & AI 로직
+<img width="1123" height="438" alt="image" src="https://github.com/user-attachments/assets/0d8d5783-55ca-42df-be3f-6adea7bc2a9c" />
 - **정규화**  
   \[
   x_\text{scaled} = \frac{x - x_\text{min}}{x_\text{max} - x_\text{min}}
@@ -97,16 +96,13 @@
   \[
   v_{\text{shift}} = v_t - v_{t-1}
   \]
-- **판별 개념**  
+- **판별 개념**
   - 엑셀↑ & 브레이크↓ & 속도↑ 패턴의 **동시·급격 변화** 탐지  
   - 임계치/윈도우 기반 특징 + 휴리스틱/ML 조합  
-  - **이상 신호 지속 시간** & **반응 지연**(브레이크 대비 가속) 등 보조 지표 사용
 
 <details>
-<summary>📈 특징/임계치 예시 차트 (클릭해 열기)</summary>
-
-> 시간-가속/브레이크/속도 라인차트, 이벤트 마킹 이미지를 첨부해주세요.  
-> 예: `/docs/img/feature-thresholds.png`
+<summary>📈 실제 AI 이상탐지</summary>
+<img width="1156" height="720" alt="AI 이상탐지" src="https://github.com/user-attachments/assets/86a8bcbf-9665-4438-9677-9812b196aba1" />
 
 </details>
 
@@ -126,17 +122,3 @@
 > 예: `/docs/img/demo-*.png`
 
 </details>
-
----
-
-## 빠른 시작
-> 각 레포 README에 상세 가이드가 있습니다. 아래는 요약입니다.
-
-### 1) Server (Spring Boot)
-```bash
-git clone https://github.com/Project-Taba/Server.git
-cd Server
-# 필요한 환경변수 예시
-# SPRING_PROFILES_ACTIVE=prod
-# DB_URL=...
-./gradlew bootRun
