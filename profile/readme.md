@@ -66,8 +66,6 @@
 
 </details>
 
----
-
 <details>
 <summary>📊 데이터 기록화</summary>
 
@@ -79,7 +77,6 @@
 
 </details>
 
----
 
 <details>
 <summary>⚙️ 운전 습관 측정 — 페달 압력, 차량 속도 기반 양발 운전·급출발·급정거 습관 분석</summary>
