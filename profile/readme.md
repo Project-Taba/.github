@@ -62,6 +62,9 @@
 <details>
 <summary>📊 데이터 기록화</summary>
 
+<img width="368" height="796" alt="image" src="https://github.com/user-attachments/assets/cb6d4fa0-1b23-4205-8764-9facc85d5424" />
+
+
 <p align="left">
 <img width="368" height="796" alt="data-record-1" src="https://github.com/user-attachments/assets/dfeb8445-8601-463d-929b-55716d327c4e.gif" />
 <img width="1243" height="658" alt="data-record-2" src="https://github.com/user-attachments/assets/b6f120de-a555-4314-9f5a-59278b15f599.gif" />
