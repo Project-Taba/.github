@@ -208,11 +208,18 @@
 
 ## 팀 소개
 
-| <img src="https://github.com/user-attachments/assets/5a0d8aa8-0a1f-41f3-a93f-b2985c1765d6" height="100"/> | <img src="https://github.com/user-attachments/assets/79d48cf7-bdd4-4ec1-831c-bb57d5d9f57d" height="100"/> | <img src="https://github.com/user-attachments/assets/a17e5ef4-f7be-48fb-ae41-5cd3b27f5918" height="100"/> | <img src="https://github.com/user-attachments/assets/00ef7243-5ac8-4f3a-8b43-2271ee79665c" height="100"/> |
-| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
 | **조창욱** | **박창수** | **제보민** | **이진호** |
-| [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/Chochanguk) | [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/yncayn) | [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/caolian2003) | [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/Haegwan-Choe) |
-| 팀장<br>HW 제작<br>펌웨어 개발<br>모바일 앱 개발<br>백엔드 API(모바일) 개발 | 팀원<br>아키텍처 설계<br>DB 설계<br>백엔드 API(시큐리티·웹) 개발 | 웹 대시보드 개발<br>보고서 작성<br>선행기술 조사 | AI 개발<br>데이터 관리 |
+| :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
+| <img src="https://github.com/Chochanguk.png" width="120" height="120"/> | <img src="https://github.com/shinnyriver.png" width="120" height="120"/> | <img src="https://github.com/jebomin.png" width="120" height="120"/> | <img src="https://github.com/jinhoyoho.png" width="120" height="120"/> |
+| [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Chochanguk) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/shinnyriver) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/jebomin) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/jinhoyoho) |
+| 🏆 팀장<br>⚙️ HW 제작<br>🧩 펌웨어 개발<br>📱 모바일 앱 개발<br>🛰️ 백엔드 API(모바일) 개발 | 🧭 팀원<br>🏗️ 아키텍처 설계<br>🗄️ DB 설계<br>🔐 백엔드 API(시큐리티·웹) 개발 | 🎨 웹 대시보드 개발<br>🧾 보고서 작성<br>🔍 선행기술 조사 | 🤖 AI 개발<br>📊 데이터 관리 |
+
+---
+
+💡 **역할 분담 요약**
+> Backend (2) · Frontend (1) · AI (1)  
+> 하드웨어부터 AI 분석까지 **End-to-End 개발팀**
+
 
 
 
