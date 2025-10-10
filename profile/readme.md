@@ -14,6 +14,7 @@
 - [핵심 기능](#핵심-기능)
 - [AI 로직](#ai-로직)
 - [실험 및 시연 영상](#실험-및-시연-영상)
+- [팀 소개](#팀-소개)
 - [레포지토리 링크 및 설명](#레포지토리-링크-및-설명)
 ---
 
@@ -201,6 +202,19 @@
 > 실제 차량 환경에서 페달 센서 입력값을 기반으로 **급발진 탐지 AI 모델**을 구동하고,  
 > 감지 시 **119 API 호출 → 웹 대시보드 알림 → MySQLDB 데이터 기록 → 앱 실시간 시각화**까지  
 > 전 과정을 통합적으로 시연했습니다.
+
+---
+
+
+## 팀 소개
+
+| <img src="https://github.com/user-attachments/assets/5a0d8aa8-0a1f-41f3-a93f-b2985c1765d6" height="100"/> | <img src="https://github.com/user-attachments/assets/79d48cf7-bdd4-4ec1-831c-bb57d5d9f57d" height="100"/> | <img src="https://github.com/user-attachments/assets/a17e5ef4-f7be-48fb-ae41-5cd3b27f5918" height="100"/> | <img src="https://github.com/user-attachments/assets/00ef7243-5ac8-4f3a-8b43-2271ee79665c" height="100"/> |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| **조창욱** | **박창수** | **제보민** | **이진호** |
+| [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/Chochanguk) | [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/yncayn) | [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/caolian2003) | [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/Haegwan-Choe) |
+| 팀장<br>HW 제작<br>펌웨어 개발<br>모바일 앱 개발<br>백엔드 API(모바일) 개발 | 팀원<br>아키텍처 설계<br>DB 설계<br>백엔드 API(시큐리티·웹) 개발 | 웹 대시보드 개발<br>보고서 작성<br>선행기술 조사 | AI 개발<br>데이터 관리 |
+
+
 
 ---
 
