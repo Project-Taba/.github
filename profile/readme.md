@@ -208,17 +208,32 @@
 
 ## 팀 소개
 
-| **조창욱** | **박창수** | **제보민** | **이진호** |
-| :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
-| <img src="https://github.com/Chochanguk.png" width="120" height="120"/> | <img src="https://github.com/shinnyriver.png" width="120" height="120"/> | <img src="https://github.com/jebomin.png" width="120" height="120"/> | <img src="https://github.com/jinhoyoho.png" width="120" height="120"/> |
-| [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Chochanguk) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/shinnyriver) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/jebomin) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/jinhoyoho) |
-| 🏆 팀장<br>⚙️ HW 제작<br>🧩 펌웨어 개발<br>📱 모바일 앱 개발<br>🛰️ 백엔드 API(모바일) 개발 | 🧭 팀원<br>🏗️ 아키텍처 설계<br>🗄️ DB 설계<br>🔐 백엔드 API(시큐리티·웹) 개발 | 🎨 웹 대시보드 개발<br>🧾 보고서 작성<br>🔍 선행기술 조사 | 🤖 AI 개발<br>📊 데이터 관리 |
-
----
-
-💡 **역할 분담 요약**
-> Backend (2) · Frontend (1) · AI (1)  
-> 하드웨어부터 AI 분석까지 **End-to-End 개발팀**
+<table align="center">
+  <tr>
+    <th align="center">👑 조창욱(팀장)</th>
+    <th align="center">💻 박창수</th>
+    <th align="center">🌐 제보민</th>
+    <th align="center">🧠 이진호</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/Chochanguk.png" width="120" height="120" style="border-radius:50%;"/></td>
+    <td align="center"><img src="https://github.com/shinnyriver.png" width="120" height="120" style="border-radius:50%;"/></td>
+    <td align="center"><img src="https://github.com/jebomin.png" width="120" height="120" style="border-radius:50%;"/></td>
+    <td align="center"><img src="https://github.com/jinhoyoho.png" width="120" height="120" style="border-radius:50%;"/></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Chochanguk"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/></a></td>
+    <td align="center"><a href="https://github.com/shinnyriver"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/></a></td>
+    <td align="center"><a href="https://github.com/jebomin"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/></a></td>
+    <td align="center"><a href="https://github.com/jinhoyoho"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/></a></td>
+  </tr>
+  <tr>
+    <td align="center">HW 제작 및 MCU 개발, 모바일 앱 개발, </br> 백엔드 API(모바일) 개발</td>
+    <td align="center">아키텍처 설계, DB 설계, </br> 백엔드 API(시큐리티·웹) 개발</td>
+    <td align="center">웹 대시보드 개발, 보고서 작성, </br> 선행기술 조사</td>
+    <td align="center">AI 개발, 데이터 관리</td>
+  </tr>
+</table>
 
 
 
