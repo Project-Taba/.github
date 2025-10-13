@@ -239,10 +239,10 @@
 
 <table align="center">
   <tr>
-    <th align="center">👑 조창욱(팀장)</th>
-    <th align="center">💻 박창수</th>
-    <th align="center">🌐 제보민</th>
-    <th align="center">🧠 이진호</th>
+    <th align="center">조창욱(팀장)</th>
+    <th align="center">박창수</th>
+    <th align="center">제보민</th>
+    <th align="center">이진호</th>
   </tr>
   <tr>
     <td align="center"><img src="https://github.com/Chochanguk.png" width="120" height="120" style="border-radius:50%;"/></td>
