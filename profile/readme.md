@@ -1,4 +1,4 @@
-# TABA — 급발진 감지 & AI 기반 응급 대처 서비스
+# TABA — 브레이크 오작동(급발진) 감지 & AI 기반 응급 대처 서비스
 <div align="center">
    <img width="600" height="250" alt="image" src="https://github.com/user-attachments/assets/5011f9cb-7453-47d2-89c3-944e2c62d9f7" />
 </div>
