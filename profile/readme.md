@@ -157,7 +157,7 @@
 
 ---
 
-### 🚗 이상 탐지(급발진 판단) 로직
+### 🚗 이상 탐지(급발진 감지) 로직
 
 > 가설: "브레이크를 밟았는데 속도가 충분히 줄지 않으면 이상 상황으로 판단"
 
@@ -221,11 +221,10 @@
 
 | 구분 | 설명 | 링크 |
 |------|------|------|
+| 🚗 **AI 판단 시연** | 실제 차량 주행 중 실시간 센서·속도 연동 시연(TMap & TABA 앱 동시 실행) | [YouTube Shorts](https://youtube.com/shorts/BzHTwrxtZ7Q?feature=share) |
 | 📱 **앱 데모** | Flutter 기반 실시간 주행 데이터 시각화 | [YouTube](https://www.youtube.com/watch?v=LInyRZcJ4HU) |
 | 🖥️ **웹 대시보드 데모** | AI 응급대응 및 위치 모니터링 관리 화면 | [YouTube](https://www.youtube.com/watch?v=aK-eYY0P0hw) |
 | ⚙️ **페달 캘리브레이션 측정** | 자동차 페달 압력 센서 값 측정 및 보정 | [YouTube Shorts](https://youtube.com/shorts/9eompbtX2hE?feature=share) |
-| 🚗 **TMap & TABA 앱 동시 실행** | 실제 차량 주행 중 실시간 센서·속도 연동 시연 | [YouTube Shorts](https://youtube.com/shorts/BzHTwrxtZ7Q?feature=share) |
-
 
 > **시연 요약**  
 > 실제 차량 환경에서 페달 센서 입력값을 기반으로 **급발진 탐지 AI 모델**을 구동하고,  
